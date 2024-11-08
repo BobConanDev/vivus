@@ -167,7 +167,7 @@ myVivus.play(1, function () {
   // called after the animation completes
 });
 
-// alternativly if you leave the speed param blank and use the default, you
+// alternatively if you leave the speed param blank and use the default, you
 // can pass the callback as the first parameter like so.
 myVivus.play(function () {
   // called after the animation completes
@@ -209,7 +209,7 @@ The attribute `data-ignore` allows you to ignore path tags from the vivus animat
 
 In this case, the second path won't be part of the animation.
 
-## Scenarize
+## scenarize should be 'scenarize'
 
 This feature allows you to script the animation of your SVG. For this, the custom values will be set directly in the DOM of the SVG.
 
@@ -297,7 +297,7 @@ Vivus will provide a warning in the console when it detects stroke scaling.
 
 ## Development
 
-To make it simpler a gulp file is set up to automise minifying, JShint and tests.
+To make it simpler a gulp file is set up to automate minifying, JShint and tests.
 If you have never used Gulp before this is a good opportunity. To use it, you need to install NodeJS first then run `sudo npm install -g gulp`.
 
 To start, you will need to install the repo dependencies:
